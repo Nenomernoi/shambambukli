@@ -22,11 +22,12 @@ android {
 
     defaultConfig {
         applicationId "by.nrstudio.shambambukli"
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode rootProject.ext.codeNameGlobal
         versionName rootProject.ext.versionNameGlobal
-
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
     }
 
     buildTypes {

@@ -21,17 +21,17 @@ class CellAdapter(private val viewModel: CellsViewModel) : BaseSupportAdapter<Ce
 
     fun getItem(position: Int) = list[position]
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BreadViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CellViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return BreadViewHolder(inflater.inflate(R.layout.item_cell, parent, false))
+        return CellViewHolder(inflater.inflate(R.layout.item_cell, parent, false))
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        (holder as BreadViewHolder).bind(getItem(position))
+        (holder as CellViewHolder).bind(getItem(position))
     }
 }
 
-class BreadViewHolder(
+class CellViewHolder(
     view: View
 ) : BaseViewHolder<Cell>(view) {
 
