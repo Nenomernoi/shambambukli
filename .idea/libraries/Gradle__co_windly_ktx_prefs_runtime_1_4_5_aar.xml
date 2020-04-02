@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: co.windly:ktx-prefs-runtime:1.4.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb1726ced94f6ecd982a9a747b942ac2/jetified-ktx-prefs-runtime-1.4.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb1726ced94f6ecd982a9a747b942ac2/jetified-ktx-prefs-runtime-1.4.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.windly/ktx-prefs-runtime/1.4.5/39bcef921182e8c0afe527c9e2f92bbbf0e7f49f/ktx-prefs-runtime-1.4.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.windly/ktx-prefs-runtime/1.4.5/711cdd63d37a7aa6fab156e31c1d1bf95db78e5d/ktx-prefs-runtime-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

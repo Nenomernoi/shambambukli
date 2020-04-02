@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: co.windly:ktx-prefs-annotations:1.4.5@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.windly/ktx-prefs-annotations/1.4.5/bed59fa1d2a53bc5ad28b6a03ee4750d972043e3/ktx-prefs-annotations-1.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.windly/ktx-prefs-annotations/1.4.5/526b742509f1c95b9e0b865a3390fc46047f1e9e/ktx-prefs-annotations-1.4.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.windly/ktx-prefs-annotations/1.4.5/4f16cafa4cb7814de38a54c3ed3ec495f6bda2ee/ktx-prefs-annotations-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

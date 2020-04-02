@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Шамбамбукли</string>
+
+    <string name="btn_add">Сотворить</string>
+    <string name="no_data">Мир пуст о Великий Демиург, сотворите клетку!</string>
+
+
+    <string name="cells_title_main">Клеточное наполнение</string>
+    <string name="cells_title_dead">Мёртвая</string>
+    <string name="cells_subtitle_dead">или прикидывается</string>
+    <string name="cells_title_live">Живая</string>
+    <string name="cells_subtitle_live">и шевелится!</string>
+    <string name="cells_title_life">Жизнь</string>
+    <string name="cells_subtitle_life">Ку-ку!</string>
+
+</resources>

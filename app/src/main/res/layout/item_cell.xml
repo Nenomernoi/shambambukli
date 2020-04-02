@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/root_padding"
+    android:layout_marginTop="@dimen/root_separate"
+    android:layout_marginEnd="@dimen/root_padding"
+    android:layout_marginBottom="@dimen/root_separate"
+    android:background="@drawable/bg_item_cell"
+    android:padding="@dimen/root_padding">
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="@dimen/cells_item_img_size"
+        android:layout_height="@dimen/cells_item_img_size"
+        android:background="@drawable/bg_dead"
+        android:padding="@dimen/root_padding_middle"
+        android:src="@drawable/ic_dead"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/root_padding"
+        android:layout_marginEnd="@dimen/root_padding"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgMain"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.0015"
+            android:text="@string/cells_title_dead"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/cells_item_title_text_size" />
+
+        <TextView
+            android:id="@+id/txtSubTitle"
+            android:letterSpacing="0.0025"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cells_subtitle_dead"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/cells_item_subtitle_text_size" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
