@@ -11,7 +11,3 @@ abstract class BaseListState<T>(
     override val loading: Boolean = false,
     override val error: Throwable? = null
 ) : BaseViewState<MutableList<T>>()
-
-
-
-

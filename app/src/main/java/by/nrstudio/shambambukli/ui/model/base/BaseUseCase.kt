@@ -11,15 +11,13 @@ import org.kodein.di.generic.instance
 
 abstract class BaseUseCase {
 
-    fun <T> produceActions(f: suspend ProducerScope<Action<T>>.() -> Unit): ReceiveChannel<Action<T>> =
-        GlobalScope.produce(block = f)
+    fun <T> produceActions(f: suspend ProducerScope<Action<T>>.() -> Unit): ReceiveChannel<Action<T>> = GlobalScope.produce(block = f)
 
     suspend fun <T> ProducerScope<Action<T>>.send(f: T.() -> T) = send(Action(f))
 }
 
 abstract class BaseDbUseCase : BaseUseCase() {
 
-    protected val setting: SettingPrefs by App.kodein.instance()
-    protected val db: Db by App.kodein.instance()
-
+    protected val setting: SettingPrefs by App.kodein.instance<SettingPrefs>()
+    protected val db: Db by App.kodein.instance<Db>()
 }

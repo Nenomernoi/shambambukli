@@ -11,7 +11,6 @@ abstract class BaseSupportAdapter<T : Any> : RecyclerView.Adapter<RecyclerView.V
     }
 
     override fun getItemCount() = list.size
-
 }
 
 abstract class BaseViewHolder<T : Any>(view: View) : RecyclerView.ViewHolder(view) {

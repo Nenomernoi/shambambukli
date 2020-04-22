@@ -22,7 +22,6 @@ class SplashViewModel(private val useCase: SplashUseCase) : BaseViewModel() {
     }
 
     override fun getState() = getStore<ViewStateStore<SplashViewState>>().state()
-
 }
 
 object SplashViewModelFactory : ViewModelProvider.Factory {

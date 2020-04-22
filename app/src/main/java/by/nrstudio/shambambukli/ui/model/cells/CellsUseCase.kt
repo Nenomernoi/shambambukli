@@ -21,7 +21,6 @@ class CellsUseCase : BaseDbUseCase() {
                 var isLife = 0
 
                 items.forEach {
-
                     when (it.type) {
                         Type.LIVE -> {
                             if (isLife < 0) {

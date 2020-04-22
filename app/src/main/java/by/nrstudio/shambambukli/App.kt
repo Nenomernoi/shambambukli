@@ -23,7 +23,5 @@ class App : Application() {
         kodein = Kodein {
             import(settingModule)
         }
-
     }
-
 }

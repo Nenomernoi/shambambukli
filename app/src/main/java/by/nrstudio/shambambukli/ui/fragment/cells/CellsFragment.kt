@@ -25,7 +25,6 @@ class CellsFragment : BaseListFragment<Cell>() {
         getViewModel<CellsViewModel>()
             .getStore<ViewStateStore<CellsViewState>>()
             .observe(this) {
-
                 showHideProgress(it.loading)
 
                 showHideNoData(it.data.isNullOrEmpty())
@@ -54,5 +53,4 @@ class CellsFragment : BaseListFragment<Cell>() {
     override fun loadData() {
         getViewModel<CellsViewModel>().loadData()
     }
-
 }

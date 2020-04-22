@@ -40,7 +40,6 @@ class CellViewHolder(
     private var imgMain: ImageView = itemView.findViewById(R.id.imgMain)
 
     override fun bind(model: Cell) {
-
         txtTitle.text = when (model.type) {
             Type.LIFE -> txtTitle.context?.getString(R.string.cells_title_life)
             Type.LIVE -> txtTitle.context?.getString(R.string.cells_title_live)
@@ -68,5 +67,4 @@ class CellViewHolder(
             }
         )
     }
-
 }

@@ -42,5 +42,4 @@ class Cell() : Parcelable {
         @Suppress("unused")
         val CREATOR = createParcel { Cell(it) }
     }
-
 }

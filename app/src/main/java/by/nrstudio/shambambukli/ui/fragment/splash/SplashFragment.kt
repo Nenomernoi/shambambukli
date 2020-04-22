@@ -26,7 +26,6 @@ class SplashFragment : BaseFragment() {
         getViewModel<SplashViewModel>()
             .getStore<ViewStateStore<SplashViewState>>()
             .observe(this) {
-
                 it.message?.let { text ->
                     showMessage(text)
                 }
@@ -56,5 +55,4 @@ class SplashFragment : BaseFragment() {
             R.id.action_splashFragment_to_mainFragment
         )
     }
-
 }

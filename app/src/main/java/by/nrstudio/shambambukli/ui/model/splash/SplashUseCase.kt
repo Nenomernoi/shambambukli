@@ -1,4 +1,4 @@
-package  by.nrstudio.shambambukli.ui.model.splash
+package by.nrstudio.shambambukli.ui.model.splash
 
 import by.nrstudio.shambambukli.ui.model.base.Action
 import by.nrstudio.shambambukli.ui.model.base.BaseUseCase
@@ -12,5 +12,4 @@ class SplashUseCase : BaseUseCase() {
         delay(2500L)
         send { copy(startAnim = false) }
     }
-
 }

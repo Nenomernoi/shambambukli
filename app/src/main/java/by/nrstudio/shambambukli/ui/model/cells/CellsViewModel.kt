@@ -33,11 +33,9 @@ class CellsViewModel(private val useCase: CellsUseCase) : BaseViewModel() {
     }
 
     override fun getState() = getStore<ViewStateStore<CellsViewState>>().state()
-
 }
 
 object CellsViewModelFactory : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T =
         CellsViewModel(CellsUseCase()) as T
 }
-
